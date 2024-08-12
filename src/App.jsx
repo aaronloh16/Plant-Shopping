@@ -17,11 +17,10 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route element={<Layout/>}>
+          <Route element={<Layout cart={cart}/>}>
             <Route path="/" element={<Home/>} />
             <Route path="/Product" element={<Product cart={cart} setCart={setCart}/>} />
             <Route path="/About" element={<About/>} />
-            <Route path="/Contact" element={<Contact/>} />
             <Route path="/Cart" element={<Cart cart={cart} setCart={setCart}/>} />
           </Route>
         </Routes>
