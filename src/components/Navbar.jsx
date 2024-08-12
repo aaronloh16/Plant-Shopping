@@ -14,10 +14,7 @@ export function Navbar({ cart }) {
 				{' '}
 				<button>Product</button>
 			</Link>
-			<Link to="/About" className="navbutton">
-				{' '}
-				<button>About</button>
-			</Link>
+			
 			<Link to="/Cart" className="navbutton">
 				{' '}
 				<button>Cart ({totalItems})</button>
